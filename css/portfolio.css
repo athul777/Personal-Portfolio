@@ -1,0 +1,277 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+body {
+    margin: 0px;
+    background-color: #D8F2F0;
+    min-width: 500px;
+}
+
+.nav-bar {
+    background-color: #0F2D40;
+    height: 75px;
+    width: 100%;
+    min-width: 500px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.left-title {
+    height: 75px;
+    width: 120px;
+    background-color: #296B73;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    cursor: default;
+    color: black;
+}
+
+.right-title {
+    float: right;
+}
+
+.nav-buttons-ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.nav-button {
+    margin: -2px 20px 10px 10px;
+    background-color: #3E8C84;
+    padding: 15px;
+    border-radius: 5px;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.title-container {
+    background-image: url(../img/wallpaper.jpg);
+	background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.title-text {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 50px;
+    color: #3E8C84;
+    height: 100px;
+    line-height: 100px;
+    width: 800px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0px auto;
+    position: relative;
+    top: 350px;
+    border-radius: 5px;
+}
+
+.category-title-text {
+    background-color: #8bbab5;
+    height: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.projects-container {
+    width: 93%;
+    margin: 0px auto;
+}
+
+.project {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-color: #296B73;
+    margin: 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.project:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.frame {
+    height: 250px;
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
+}
+
+.image {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.project-text {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    color: white;
+}
+
+.project-link {
+    
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.about-paragraph {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+}
+
+.contact-container {
+    width: 85%;
+    margin: 0px auto 70px auto;
+}
+
+.contact-paragraph {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width: 1874px) {
+    .projects-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .projects-container {
+        width: 90%;
+    }
+	
+	.title-container {
+		background-image: url(../img/wallpaper.jpg);
+		height: 800px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1315px) {
+    .projects-container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1274px) {
+    .projects-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1190px) {
+    .projects-container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1000px) {
+   .standard-button {
+        height: 100px;
+        width: 200px;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        border-radius: 15px;
+        outline: none;
+        cursor: pointer;
+        margin: 20px;
+    }
+    
+    .buttons-container {
+        width: 100%;
+    }
+    
+    .nav-bar {
+        position: relative;
+    }
+	
+	.right-title {
+		display: none;
+	}
+	
+	.title-container {
+		background-image: url(../img/wallpaper.jpg);
+		height: 800px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.title-text {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 35px;
+		color: #3E8C84;
+		height: 100px;
+		line-height: 100px;
+		width: 80%;
+		background-color: black;
+		opacity: 0.8;
+		margin: 0px auto;
+		position: relative;
+		top: 350px;
+		border-radius: 5px;
+	}
+
+	.category-title-text {
+		background-color: #8bbab5;
+		height: 120px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		text-align: center;
+		line-height: 120px;
+	}
+	
+	.about-paragraph {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 12px;
+	}
+	
+	.contact-paragraph {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
