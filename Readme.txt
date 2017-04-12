@@ -1,0 +1,1 @@
+This is a simple website displaying some of the projects I've built and contains information about me. 
