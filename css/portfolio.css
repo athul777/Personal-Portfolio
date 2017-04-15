@@ -6,14 +6,14 @@
 body {
     margin: 0px;
     background-color: #D8F2F0;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 .nav-bar {
     background-color: #0F2D40;
     height: 75px;
     width: 100%;
-    min-width: 500px;
+    min-width: 400px;
     top: 0px;
     left: 0px;
     position: fixed;
@@ -67,8 +67,8 @@ body {
 .title-container {
     background-image: url(../img/wallpaper.jpg);
 	background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    height: 800px;
+    width: auto;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ body {
     color: #3E8C84;
     height: 100px;
     line-height: 100px;
-    width: 800px;
+    width: 90%;
     background-color: black;
     opacity: 0.8;
     margin: 0px auto;
@@ -97,8 +97,9 @@ body {
 }
 
 .projects-container {
-    width: 93%;
+    width: 90%;
     margin: 0px auto;
+	text-align: center;
 }
 
 .project {
@@ -170,82 +171,18 @@ body {
     text-align: center;
 }
 
-@media (max-width: 1874px) {
-    .projects-container {
-        width: 80%;
-    }
-}
-
-@media (max-width: 1500px) {
-    .projects-container {
-        width: 90%;
-    }
-	
-	.title-container {
-		background-image: url(../img/wallpaper.jpg);
-		height: 800px;
-		width: 100%;
-		text-align: center;
-	}
-}
-
-@media (max-width: 1315px) {
-    .projects-container {
-        width: 95%;
-    }
-}
-
-@media (max-width: 1274px) {
-    .projects-container {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1190px) {
-    .projects-container {
-        width: 600px;
-    }
-}
-
-@media (max-width: 1000px) {
-   .standard-button {
-        height: 100px;
-        width: 200px;
-        border: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 25px;
-        border-radius: 15px;
-        outline: none;
-        cursor: pointer;
-        margin: 20px;
-    }
-    
-    .buttons-container {
-        width: 100%;
-    }
-    
-    .nav-bar {
-        position: relative;
-    }
-	
+@media (max-width: 1024px) {
 	.right-title {
-		display: none;
+		display: none; 
 	}
 	
-	.title-container {
-		background-image: url(../img/wallpaper.jpg);
-		height: 800px;
-		width: 100%;
-		text-align: center;
-	}
-
 	.title-text {
 		font-family: 'Oxygen', sans-serif;
-		font-size: 35px;
+		font-size: 40px;
 		color: #3E8C84;
 		height: 100px;
 		line-height: 100px;
-		width: 80%;
+		width: 90%;
 		background-color: black;
 		opacity: 0.8;
 		margin: 0px auto;
@@ -253,25 +190,131 @@ body {
 		top: 350px;
 		border-radius: 5px;
 	}
-
-	.category-title-text {
-		background-color: #8bbab5;
-		height: 120px;
-		font-family: 'Oswald', sans-serif;
-		font-size: 40px;
-		text-align: center;
-		line-height: 120px;
-	}
 	
 	.about-paragraph {
 		font-family: 'Oxygen', sans-serif;
-		font-size: 12px;
+		font-size: 20px;
 	}
 	
 	.contact-paragraph {
 		font-family: 'Oxygen', sans-serif;
-		font-size: 15px;
+		font-size: 20px;
 		text-align: center;
 	}
 }
 
+@media (max-width: 600px) {
+	.title-text {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 35px;
+		color: #3E8C84;
+		height: 100px;
+		line-height: 100px;
+		width: 90%;
+		background-color: black;
+		opacity: 0.8;
+		margin: 0px auto;
+		position: relative;
+		top: 350px;
+		border-radius: 5px;
+	}
+	.projects-container {
+		width: 90%;
+		margin: 0px auto;
+		text-align: center;
+	}
+	
+	.project {
+		position: relative;
+		height: 216px;
+		width: 360px;
+		background-color: #296B73;
+		margin: 40px;
+		display: inline-block;
+		border-radius: 5px;
+	}
+
+	.project:hover {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	.frame {
+		height: 180px;
+		width: 80%;
+		position: relative;
+		margin: 10px auto;
+	}
+
+	.image {
+		max-height: 100%;  
+		max-width: 100%; 
+		width: auto;
+		height: auto;
+		position: absolute;  
+		top: 0;  
+		bottom: 0;  
+		left: 0;  
+		right: 0;  
+		margin: auto;
+	}
+
+	.project-text {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 16px;
+		text-align: center;
+		position: relative;
+		bottom: 5px;
+		color: white;
+	}
+	
+	.about-paragraph {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 16px;
+	}
+	
+	.contact-paragraph {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 440px) {
+	.title-text {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 35px;
+		color: #3E8C84;
+		height: 200px;
+		line-height: 100px;
+		width: 90%;
+		background-color: black;
+		opacity: 0.8;
+		margin: 0px auto;
+		position: relative;
+		top: 350px;
+		border-radius: 5px;
+	}
+	
+	.project {
+		position: relative;
+		height: 190px;
+		width: 290px;
+		background-color: #296B73;
+		margin: 40px;
+		display: inline-block;
+		border-radius: 5px;
+	}
+
+	.project:hover {
+		opacity: 0.8;
+		cursor: pointer;
+	}
+
+	.frame {
+		height: 160px;
+		width: 80%;
+		position: relative;
+		margin: 5px auto;
+	}
+}
