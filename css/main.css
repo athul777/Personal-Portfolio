@@ -33,7 +33,6 @@ body {
 
 .right-title {
     float: right;
-	display: none;
 }
 
 .nav-buttons-ul {
@@ -166,6 +165,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+	.right-title {
+		display: none;
+	}
 	.title-text {
 		font: 40px 'Oxygen', sans-serif;
 		color: #3E8C84;
